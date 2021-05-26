@@ -1,5 +1,6 @@
 body {
     background-color: #34568B;
+    height: 100vh;
 }
 .container {
     position: absolute;
@@ -8,7 +9,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.my_style {
+.main-center {
     background-color: white;
     font-family: "Pattaya";
     font-size: large;
