@@ -1,6 +1,5 @@
 body {
     background-color: #34568B;
-    height: 100vh;
 }
 .container {
     position: absolute;
@@ -10,13 +9,11 @@ body {
 }
 
 .main-center {
-    background-color: white;
     font-family: "Pattaya";
-    font-size: large;
     margin: 10%;
     padding: 10%;
     color: black;
     width: 100%;
     height: 50%;
-    border: 1px dotted red;
+    border: 1px solid red;
 }
