@@ -1,6 +1,8 @@
-h2 {
-    padding: 1rem;
-    text-shadow: 10px 2px 4px #bada55;
+p {
+    color: #2E5757;
+    background: #F0DFEE;
+    font-weight: bolder;
+    text-align: right;
 }
 
 .table {

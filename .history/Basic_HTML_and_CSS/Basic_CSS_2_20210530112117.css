@@ -3,6 +3,10 @@ h2 {
     text-shadow: 10px 2px 4px #bada55;
 }
 
+.shadow {
+    text-shadow: 10px 2px 4px #bada55;
+}
+
 .table {
     border-collapse: collapse;
     margin: 25px 0;
