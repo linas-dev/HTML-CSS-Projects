@@ -1,0 +1,32 @@
+table {
+    border-top: 1px silver;
+}
+
+
+
+/* .table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+.table thead tr {
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th, .table td {
+    padding: 7px 5px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.hoveref:hover {
+    background-color: #4F0444;
+    color: white;
+} */
