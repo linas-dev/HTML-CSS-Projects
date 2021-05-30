@@ -22,12 +22,3 @@ p {
 .table th, .table td {
     padding: 7px 5px;
 }
-
-.table tbody tr {
-    border-bottom: 1px solid #dddddd;
-}
-
-.hoveref:hover {
-    background-color: #4F0444;
-    color: white;
-}

@@ -28,6 +28,6 @@ p {
 }
 
 .hoveref:hover {
-    background-color: #4F0444;
+    background-color: red;
     color: white;
 }

@@ -1,0 +1,17 @@
+p {
+    color: #2E5757;
+    background: #F0DFEE;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+.table thead tr {
+    background-color: red;
+}
