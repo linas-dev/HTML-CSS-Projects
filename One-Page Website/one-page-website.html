@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="one-page-website.css"> -->
+  <title>🏎️ CARS 🚗</title>
+</head>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a class="navbar-brand" href="">
+        <span>
+          <i><span class="car" >🚗</span></i>
+        </span>
+      </a>
+      <!-- NAVIGATION LINKS -->
+      <div">
+        <ul>
+          <li class="nav-item" >
+            <a class="nav-link a-text" href="#home">Home</a></li>
+          <li class="nav-item" >
+            <a class="nav-link a-text" href="#about">About</a></li>
+          <li class="nav-item" >
+            <a class="nav-link a-text" href="#featured">Featured Cars</a></li>
+          <li class="nav-item" >
+            <a class="nav-link a-text" href="#videos">Videos</a></li>
+          <li>
+            <a class="nav-link btn btn-secondary" href="#contact">Get in Touch</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+
+  <!-- HOME SECTION -->
+  <section class="home" id="home" >
+    <div class="container">
+      <h1 class="section-title">Amazing Cars Awaiting</h1>
+      <br>
+      <br>
+      <a href="#featured" class="btn-a">See here!</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about" >
+    <div class="container">
+      <h1 class="section-title">About</h1>
+      <section-s>
+        <div class="container-fi">
+          <div class="main">
+            <div class="left">
+              <div class="card">
+                <h2>What We Do</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus tenetur enim repudiandae in, voluptatibus facilis quasi error praesentium blanditiis iure ab ipsam, exercitationem, modi commodi! Accusamus molestiae illo sapiente officiis!</p>
+              </div>
+              <div class="card">
+                
+                <h2>Cars</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus totam id omnis aut ex, dolore minima, dolores labore fugiat quia magni. Qui exercitationem incidunt, repellendus cupiditate est veritatis soluta accusantium.</p>
+              </div>
+              <div class="card">
+              
+                <h2>collections</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas unde aperiam dolorum et itaque. Ipsam, aut eveniet! Maxime ratione molestiae dolor aliquid? Mollitia corporis suscipit minus. Nostrum quaerat accusamus esse.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section-s>
+    </div>
+  </section>
+
+  <!-- FEATURED SECTION -->
+  <section class="featured" id="featured" >
+    <div class="container">
+      <h1 class="section-title">Featured Cars</h1>
+      <br>
+      <br>
+      <br>
+      <div class="parent">
+
+        <div class="card pseudo-hover">
+          <h3 class="car-title" >Ford F350</h3>
+          <p>Price: 120,000.00</p>
+          <div class="visual pink">
+            <img src="images/f.jpg" alt="Ford F350">
+          </div>
+        </div>
+
+        <div class="card pseudo-hover">
+          <h3  class="car-title">BMW 9</h3>
+          <p>Price: 100,000.00</p>
+          <div class="visual blue">
+            <img src="images/bmw.jpg" alt="BMW 9">
+          </div>
+        </div>
+
+        <div class="card pseudo-hover">
+          <h3 class="car-title" >Mercedes Car</h3>
+          <p>Price: 150,000.00</p>
+          <div class="visual pink">
+            <img src="images/car9.jpg" alt="Mercedes Car">
+          </div>
+        </div>
+
+        <div class="card pseudo-hover">
+          <h3  class="car-title">Audi</h3>
+          <p contenteditable>Price: 90,000.00</p>
+          <div class="visual blue">
+            <img src="images/audi.jpg" alt="Audi">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- VIDEOS SECTION -->
+  <section class="videos" id="videos" >
+    <div class="container">
+      <h1 class="section-title">Video</h1>
+      <br>
+      <iframe width="1904" height="810" src="https://www.youtube.com/embed/DCb4qdJw_Yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- CONTACT US SECTION -->
+  <section class="contact" id="contact" >
+    <div class="container">
+      <h1 class="section-title">Sign Up For Testing</h1>
+      <br>
+      <form class="form" action="./" method="POST">
+        <p class="form__desc">
+          Experience the speed of Super Cars!
+        </p>
+        <class class="form__padding">c</class>
+        <div class="form__item">
+          <label for="names" class="form__label">Names</label>
+          <input type="text" class="form__input" name="names" id="names" placeholder="Enter your name(s)">
+          <class class="form__padding">c</class>
+        </div>
+        <div class="form__item">
+          <label for="numberoftetsers" class="form__label">Number of Testers</label>
+          <input type="number" class="form__input form__input--small" name="numberoftetsers" id="numberoftetsers" min="1" max="5" placeholder="How many users? (Max. 5)">
+          <class class="form__padding">a</class>
+        </div>
+        <div class="form__item">
+          <label for="date" class="form__label">Booking Date</label>
+          <input type="date" class="form__input form__input--small" name="date" id="date" placeholder="Enter an expiration date">
+          <class class="form__padding">r</class>
+        </div>
+        <div class="form__item">
+          <label for="message" class="form__label">Message</label>
+          <textarea maxlength="500" class="form__input" name="message" id="message" placeholder="Enter a message about why you wish to signup."></textarea>
+          <class class="form__padding">s</class>
+        </div>
+        <div class="form__item">
+          <button class="form__btn" type="submit">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <h3> <span class="f-car" > 🏎️</span></h3>
+      </div>
+
+      <div class="footer-bottom">
+        <p>copyright &copy;2021 Linas Smita. designed by <span>linas</span></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
