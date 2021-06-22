@@ -26,6 +26,7 @@ h1 {
   border: 1px solid black;
   border-radius: 25%;
   cursor: pointer;
+  transition: transform .5s ease-in-out;
 }
 
 .squares:nth-child(-n+4) p {
@@ -52,6 +53,10 @@ h1 {
 
 .container .squares:nth-child(-n+4):hover {
   background-image: url("../Images/Icons/smileyface.png");
+  animation-name: race;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function:cubic-bezier(2.5,.2,.3,2);
 }
 
 .squares:nth-child(1):hover {
@@ -65,4 +70,14 @@ h1 {
 }
 .squares:nth-child(4):hover {
   background-color: #77b800;
+}
+
+@keyframes race {
+  0%, 100% {
+    transform: translateY(0px)
+    background-image: url("../Images/Icons/smileyface.png");
+  }
+  50% {
+    transform: translateY(330px)
+  }
 }
