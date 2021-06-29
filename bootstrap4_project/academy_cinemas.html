@@ -6,52 +6,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>Academy Cinemas</title>
-  </head>
-  <body>
-
+    <body>
     <div class="container">
 
-      <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <!-- NAVBAR -->
+      <nav class=" navbar fixed navbar-expand-lg navbar-light bg-info">
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
+    
             <li class="nav-item active">
-              <a href="#" class="nav-link text-light">About</a>
+              <a href="#about" class="nav-link text-light">About</a>
             </li>
-
+    
             <li class="nav-item active">
-              <a href="#" class="nav-link text-light">Show Times</a>
+              <a href="#showtimes" class="nav-link text-light" >Show Times</a>
             </li>
-
+    
             <li class="nav-item active">
-              <a href="#" class="nav-link text-light">Deals</a>
+              <a href="#deals" class="nav-link text-light">Deals</a>
             </li>
           </ul>
-
+    
           <form class="form-inline my-2 my-lg-0">
             <input type="search" class="form-control mr-sm-2" placeholder="Search">
             <button class="btn btn-primary text-light my-2 my-sm-0" type="Submit">Search</button>
           </form>
         </div>
       </nav>
+  
+    <!-- BANNER -->
+    <div class="jumbotron jumbotron-fluid bg-light text-center" >
+      <div class="container">
+        <h1 class="display-4 text-dark">Academy Cinemas</h1>
+        <p class="lead text-dark">Sit back, relax, enjoy the show..</p>
+      </div>
+    </div>
+    
+  
+    <!-- MAIN -->
+    <div class="row pt-3" id="about" >
+      <div class="col-sm">
 
-      <!-- BANNER -->
-      <div class="jumbotron jumbotron-fluid bg-info text-center">
-        <div class="container">
-          <h1 class="display-4 text-light">Academy Cinemas</h1>
-          <p class="lead text-light">Sit back, relax, enjoy the show..</p>
-        </div>
+        <img src="/Img/pdx.jpg" alt="beautyandthebeast" class="img-fluid">
       </div>
 
+      <div class="col-sm">
+        <h3>Accommodations:</h3>
+        <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959</p>
+        <p>Showing our guests a great time in our passion and seeing their smiles is our pleasure!</p>
+      </div>
 
+      <!-- NOW PLAYING -->
+      <div class="col-sm">
+        <h3 class="text-center">Now Playing</h3>
+
+        <ul class="list-group">
+          <li class="list-group-item mb-2 bg-light">
+            <a href="#" class="nav-link">Ghost in the Shell</a>
+          </li>
+        </ul>
+        <ul class="list-group">
+          <li class="list-group-item mb-2 bg-light">
+            <a href="#" class="nav-link">Kong: Skull Island</a>
+          </li>
+        </ul>
+        <ul class="list-group">
+          <li class="list-group-item bg-light">
+            <a href="#" class="nav-link">Beauty and the Beast</a>
+          </li>
+        </ul>
+
+      </div>
     </div>
 
 
+    <!-- SHOW TIMES -->
+    <h2 class="mt-5" id="showtimes" >Show times:</h2>
+    <div class="row pb-5">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/Img/bab.jpg"  height="200" alt="" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title" >Beauty and the Beast</h4>
+            <p class="card-text" >A selfish Prince is cursed to become a monster for the rest of his life, unless he learns to fall in love with a beautiful young woman he keeps prisoner.</p>
+          </div>
+          <div class="card-footer text-center">
+            <span class="badge badge-success">13:00 PM</span>
+            <span class="badge badge-success">15:00 PM</span>
+            <span class="badge badge-success">17:00 PM</span>
+            <span class="badge badge-success">19:00 PM</span>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/Img/gits.jpg" height="200" alt="" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title" >Ghost in the Shell</h4>
+            <p class="card-text" >In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.</p>
+          </div>
+          <div class="card-footer text-center">
+            <span class="badge badge-secondary">13:00 PM</span>
+            <span class="badge badge-secondary">15:00 PM</span>
+            <span class="badge badge-secondary">17:00 PM</span>
+            <span class="badge badge-secondary">19:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/Img/ksi.jpg" height="200" alt="" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title" >Kong: Skull Island</h4>
+            <p class="card-text" >After the Vietnam war, a team of scientists explores an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.</p>
+          </div>
+          <div class="card-footer text-center">
+            <span class="badge badge-primary">13:00 PM</span>
+            <span class="badge badge-primary">15:00 PM</span>
+            <span class="badge badge-primary">17:00 PM</span>
+            <span class="badge badge-primary">19:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FORM -->
+    <div class="text-center py-5" id="deals" >
+      <form class="mt-5" >
+        <h1 class="text-primary my-5">Sign up For Movie Club Rewards</h1>
+        <div class="form-group ">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container my-5">
+      <ul class="nav">
+
+        <li class="nav-item">
+          <small><a href="" class="nav-link active">Movie Rewards</a></small>
+        </li>
+
+        <li class="nav-item">
+          <small><a href="" class="nav-link active">Movies@news.org</a></small>
+        </li>
+
+        <li class="nav-item">
+          <small><a href="" class="nav-link active">Info@academycinemas.org</a></small>
+        </li>
+
+        <li class="nav-item">
+          <small class="nav-link">&copy;2021 Academy Cinemas</small>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+ 
 
 
 
@@ -68,8 +188,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
