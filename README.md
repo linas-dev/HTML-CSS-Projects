@@ -24,6 +24,13 @@ The CARS website was creating using html and css. It has 5 sections that contain
 This page is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to navbar, jumbotron, form cards, dropdowns and 
 
 
+<h3>My html and css github courses page aswell conatins a lot of other small projects that i have been creating during the period of the entire course.</h3>
+
+## ❤ Views and Followers
+<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=linas-dev">
+</a>
+<a href="https://github.com/SubhamRaoniar28?tab=followers"><img src="https://img.shields.io/github/followers/linas-dev?label=Followers&style=social" alt="GitHub Badge"></a>
 
 
 
