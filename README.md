@@ -17,6 +17,8 @@ This page is an example home page for a Space travel company. It is styled using
 
 [![](https://img.shields.io/badge/CARS_Website-832??style=for-the-badge&logo=Mercedes&logoColor=white)](https://github.com/linas-dev/HTML-CSS-Projects/tree/main/One-Page%20Website)
 
+The CARS website was creating using html and css. It has 5 sections that contains about the page section, feautured cars section, video section and signup section with very attractive design built just by using modern css with hover animations, the website ends with footer section.
+
 [![](https://img.shields.io/badge/Academy_Cinemas-0A66C2??style=for-the-badge&logo=HTMLAcademy&logoColor=white)](https://github.com/linas-dev/HTML-CSS-Projects/tree/main/bootstrap4_project)
 
 This page is an example home page for a Movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to navbar, jumbotron, form cards, dropdowns and 
