@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/portfolio/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>👨‍💻 linasdev</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap" rel="stylesheet"/>
@@ -13,6 +13,7 @@
   </head>
   <body id="home">
 
+    <!-- HEADER SECTION -->
     <header>
       <div class="nav">
         <div class="links">
@@ -24,7 +25,10 @@
         <div class="hello linkcolor">Hello, <span>Linas</span></div>
       </div>
     </header>
+    <!-- END HEADER SECTION -->
 
+
+    <!-- VIDEO SECTION -->
     <div class="videosection">
       <div class="overlay">
         <div class="title">
@@ -32,25 +36,35 @@
           <p>“ In order to be irreplaceable, one must always be different ” – Coco Chanel</p>
         </div>
       </div>
-
-      <video src="/portfolio/vid.mp4" loop autoplay muted></video>
+      <video src="/vid.mp4" loop autoplay muted></video>
     </div>
+    <!-- END VIDEO SECTION -->
 
+
+    <!-- MAIN SECTION -->
     <main>
+
+      <!-- ABOUT SECTION -->
       <section id="about">
         <div class="incontainer">
           <div class="evencolumns">
+
+            <!-- right side of about section -->
             <div class="rightcol">
               <div class="imagecon">
-                <img src="/portfolio/carbon (1).png" width="100%" height="500px"
+                <img src="/carbon.png" width="100%" height="500px"
                   style="border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;"alt=""/>
               </div>
             </div>
+            <!-- end right side of about section -->
+
+            <!-- left side of about section -->
             <div class="leftcol">
-              <h1 class="h1">ABOUT</h1>
+              <h1 class="h1">ABOUT</h1> 
+
               <div class="columns2">
                 <p class="intro">
-                  I'm a beginner software engineer who is passionate about making contributing to open-source more approachable.
+                  Highly motivated student in software development with fundamental knowledge of software design, development.
                 </p>
                 <p></p>
                 <p>
@@ -60,15 +74,21 @@
                 </p>
               </div>
             </div>
+            <!-- end left side of about section -->
+
           </div>
         </div>
       </section>
-      <div class="spacer layer2 flip"></div>
+      <!-- END ABOUT SECTION -->
 
+      <div class="spacer layer2 flip"></div> <!-- CREATIVE CURVED IMAGE BACKGROUND SVG -->
+
+      <!-- GITHUB SECTION -->
       <section class="pink" id="github">
         <div class="incontainer">
           <div class="evencolumns">
 
+            <!-- right side of github section -->
             <div class="rightcol">
               <div class="githubpagefind">
                 <details>
@@ -82,16 +102,21 @@
                 </details>
               </div>
             </div>
+            <!-- end right side of github section -->
 
+            <!-- left side of github section -->
             <div class="leftcol">
               <div class="imagecon">
-                <img src="/portfolio/github.png" width="100%" height="500px"
+                <img src="/github.png" width="100%" height="500px"
                   style=" border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;" alt=""/>
               </div>
             </div>
+            <!-- end left side of github section -->
 
           </div>
         </div>
+
+        <!-- SVG ANIMATED BACKGROUND BLOB -->
         <svg class="blobmotion" id="visual" viewBox="0 0 960 540" width="960" height="540" 
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -133,7 +158,9 @@
           </g>
 
         </svg>
+        <!-- END SVG ANIMATED BACKGROUND BLOB -->
 
+        <!-- ANIMATION FOR SVG BLOBS -->
         <script>
           const tween = KUTE.fromTo(
             "#blob1",
@@ -149,22 +176,30 @@
             { repeat: 999, duration: 3000, yoyo: true }
           ).start();
         </script>
+        <!-- END ANIMATION FOR SVG BLOBS -->
+
       </section>
+      <!-- END GITHUB SECTION -->
 
-      <div class="spacer layer2"></div>
+      <div class="spacer layer2"></div> <!-- CREATIVE CURVED IMAGE BACKGROUND SVG 2 -->
 
+      <!-- CONTACT SECTION -->
       <section id="contact">
         <div class="incontainer">
           <div class="evencolumns">
 
+            <!-- right side of contact section -->
             <div class="rightcol">
               <div class="imgcontact">
-                <img src="/portfolio/contact.gif" width="100%" height="500px" alt="" />
+                <img src="contact.gif" width="100%" height="585px" alt="" />
               </div>
             </div>
+            <!-- end right side of contact section -->
 
+            <!-- left side of contact section -->
             <div class="leftcol">
 
+              <!-- contact form -->
               <form>
                 <h1>CONTACT</h1>
                 <div class="formgroup">
@@ -187,16 +222,25 @@
                 </div>
 
               </form>
+              <!-- end contact form -->
+
               </div>
+              <!-- end left side of contact section -->
 
             </div>
           </div>
       </section>
+      <!-- END CONTACT SECTION -->
+
+      <!-- FOOTER SECTION -->
       <footer>
         <div class="footer">
-          <p>&copy Linas Consulting Inc., <a href="" target="_blank">linasdev</a></p>
+          <p>&copy Linas Consulting Inc., 2021 <a href="" class="linkcolor" target="_blank">linasdev</a></p>
         </div>
       </footer>
+      <!-- END FOOTER SECTION -->
+
     </main>
+    <!-- END MAIN SECTION -->
   </body>
 </html>
