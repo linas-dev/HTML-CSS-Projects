@@ -8,12 +8,12 @@
 [![](https://img.shields.io/badge/Portfolio_Website-765??style=for-the-badge&logo=SpaceX&logoColor=red)](https://linas-dev.github.io/)
 
 
-This website is an example of modern css and html that has been used to create this portfolio website. The website was made using high quality design decisions by implementing dynamic curved svgs for background images, aswell animated svgs, The site contains navigation bar, banner section, aswell as about, github, and sections. 
+This website is an example of modern css and html that has been used to create this portfolio website. The website was made using high quality design decisions by implementing dynamic curved svgs for background images, aswell animated svgs, The site contains navigation bar, banner section, aswell as about, github, and contact us sections. The website is interactive it has hover effects smooth scroll using just css.
 
 [![](https://img.shields.io/badge/Space_Station-123??style=for-the-badge&logo=SpaceX&logoColor=blue)](https://github.com/linas-dev/HTML-CSS-Projects/tree/main/Creating%20a%20Basic%20HTML%20Website)
 
 
-This page is an example home page for a Space travel company. It is styled using CSS and contains a navbar, image containers and  a form.
+This page is an example home page for a Space travel company. It is styled using CSS and contains a navbar, image containers and a form.
 
 [![](https://img.shields.io/badge/CARS_Website-832??style=for-the-badge&logo=Mercedes&logoColor=white)](https://github.com/linas-dev/HTML-CSS-Projects/tree/main/One-Page%20Website)
 
