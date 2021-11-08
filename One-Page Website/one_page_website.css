@@ -432,7 +432,7 @@ textarea.form__input {
   width: 500px;
   height: 300px;
   cursor: pointer;
-  object-fit: cover;
+  object-fit: cover;   
 }
 
 #lightboxBg {
