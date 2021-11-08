@@ -11,7 +11,7 @@ images.forEach(image => {
     const lightboxImg = document.createElement('img');
     lightboxImg.src = image.src;
     while(lightboxBg.firstChild){
-      lightboxBg.removeChild(lightboxBg.firstChild)
+      lightboxBg.removeChild(lightboxBg.firstChild) 
     }
     lightboxBg.appendChild(lightboxImg);
   })
